@@ -1,0 +1,152 @@
+html {
+    box-sizing: border-box;
+  }
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  
+  .container {
+    width: 70vw;
+    margin: 40px auto;
+    max-width: 960px;
+  }
+  
+  body {
+    font-family: 'MotorBlock', sans-serif;
+    margin: 0;
+    line-height: 1.6;
+    background-color:hsl(0, 56%, 50%);
+  }
+  header.primary {
+   background-color:hsl(0, 56%, 50%);
+   background-image:url("../img/armig.jpg");
+    text-align: center;
+    color: #ffffff;
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-size:cover;
+    display:flex;
+    justify-content:space-between;
+    flex-direction:row;
+  }
+  
+  
+  header.primary h1 a {
+    color: #eeeeee;
+    text-decoration: none;
+  }
+
+  h2{
+    text-align:center;
+    
+    
+  }
+  .slick-autoplay-toggle-button,
+  .slick-prev .slick-prev-icon, .slick-next .slick-next-icon,
+  .slick-dots li button .slick-dot-icon,
+  .slick-dots li.slick-active button .slick-dot-icon {
+    color: rgb(250, 250, 250);
+  }
+  
+  /* Customize Previous/Next/Dots/Autoplay - Active State */
+  
+  .slick-next:focus .slick-next-icon,
+  .slick-next:focus .slick-prev-icon,
+  .slick-prev:focus .slick-next-icon,
+  .slick-prev:focus .slick-prev-icon,
+  .slick-dots li button:focus .slick-dot-icon:before,
+  .slick-dots li.slick-active button:focus .slick-dot-icon,
+  .slick-autoplay-toggle-button:focus 
+  {
+      color:black;
+  }
+  .topnav {
+    background-color: #000000;
+    margin:20px;
+  }
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+    margin:20px;
+  }
+
+ 
+
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  img {
+    max-width: 100%
+  }
+  .image {
+    flex-basis: 200%
+  }
+  .text {
+    font-size: 20px;
+    padding-left: 20px;
+  }
+
+  .section {
+    background-color:rgb(152, 185, 216);
+  }
+  
+
+  header.primary nav {
+    width: 80vw;
+    margin: 20px auto;
+    max-width: 900px;
+  }
+
+  aside[role="complementary"] {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 2.2rem;
+  }
+  
+  aside .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  aside article.widget {
+    width: 45%;
+  }
+
+  aside article.widget footer {
+    display: none;
+  }
+  
+  #colophon {
+    background-color:hsl(0, 56%, 50%);
+  }
+  
+  #colophon h6 {
+    padding: 20px;
+    margin: 0;
+    text-align: center;
+    color: #fff;
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    text-shadow: 1px 1px #000000;
+  }
